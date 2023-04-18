@@ -4,11 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 60vh">
       <!-- Your code here -->
+      <tr>
+        <td>
+          <table style="width: 100%;">
+            <thead>
+              <tr><th colspan="2">Nested Table 2</th></tr>
+              <tr>
+                <th>Column1</th>
+                <th>Column2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>abc</td>
+                <td>abc</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th>Nested Table 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>  
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th colspan="2">Nested Table 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">Nested Table</a></td>
+                <td>Demo Continued</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th>Nested Table 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="background-color: black; color: aliceblue;">HTML</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
